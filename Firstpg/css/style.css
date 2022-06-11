@@ -1,0 +1,90 @@
+*{
+ margin:0 ;           
+ padding: 0;
+}
+body {
+ margin: 2%;
+ padding: 1%;
+ background-image: linear-gradient(rgba(0,0,0,0.75),#009688),url(../images/Learning_photo1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ font-size: x-large;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: justify;
+ height: 100vh;
+}
+
+h1 {
+ background-color: brown;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: aliceblue;
+ text-align: center;
+ 
+ 
+}
+
+p {
+ background-image: url(../images/background3.jpeg);
+ background-size: cover;
+ color: whitesmoke;
+ padding: 2%;
+
+}
+
+#h2 {
+ text-align: center;
+ color: bisque;
+ background-color: blue;
+ margin-top: 0 auto;
+}
+
+footer {
+ clear: both;
+ background-color: blueviolet;
+ color: aliceblue;
+ text-align: center;
+}
+
+.link1{
+ display: inline-block;
+ font-weight: bold;
+ padding: 2%;
+ background-color: blue;
+ color: whitesmoke;
+ text-decoration: none;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 1%;
+ width: 12%;
+}
+
+.link1:hover {
+ background-color: blanchedalmond;
+ color: brown;
+}
+
+.link1:focus {
+ background-color: blueviolet;
+ color: red;
+}
+
+.link1:active {
+ border: 3px solid peru;
+}
+
+summary {
+ color:aliceblue;
+}
+a{
+text-decoration: none;
+background-color: aqua;
+}
+a:hover{
+ background-color: bisque;
+ color: green;
+}
+.h3links{
+ height: 1pt;
+ 
+}
